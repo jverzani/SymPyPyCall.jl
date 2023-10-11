@@ -3,11 +3,21 @@ uuid = "6612a863-5906-476d-b3de-9b12e8e72588"
 authors = ["jverzani <jverzani@gmail.com> and contributors"]
 version = "1.0.0-DEV"
 
+[deps]
+CommonEq = "3709ef60-1bee-4518-9f2f-acd86f176c50"
+CommonSolve = "38540f10-b2f7-11e9-35d8-d573e4eb0ff2"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+SymPyCore = "458b697b-88f0-4a86-b56b-78b75cfb3531"
+
 [compat]
 julia = "1"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
 
 [targets]
-test = ["Test"]
+test = ["Test", "LinearAlgebra", "SpecialFunctions"]
