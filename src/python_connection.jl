@@ -54,7 +54,8 @@ function Base.getproperty(x::SymbolicObject{T}, a::Symbol) where {T <: PyCall.Py
         end
         return Sym(convert(PyCall.PyAny, meth))
     end
-    @show :huh_getproperty
+    # nothing?
+    nothing
 end
 
 
