@@ -12,8 +12,8 @@
 
 The package [SymPyPythonCall](https://github.com/jverzani/SymPyPythonCall.jl) does a similar thing with the `PythonCall` package providing the interop.
 
-!!! note
-    It is anticipated that this package will be renamed `SymPy` at the next breaking change of the [SymPy](https://github.com/JuliaPy/SymPy.jl) package. As such, it is not expected that this package will be registered. To install this package, use `Pkg.add(PackageSpec(url="https://github.com/jverzani/SymPyPyCall.jl"))`.
+> **Note**
+>    It is anticipated that this package will be renamed `SymPy` at the next breaking change of the [SymPy](https://github.com/JuliaPy/SymPy.jl) package. As such, it is not expected that this package will be registered. To install this package, use `Pkg.add(PackageSpec(url="https://github.com/jverzani/SymPyPyCall.jl"))`.
 
 
 ## Installation
